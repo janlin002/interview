@@ -1,6 +1,26 @@
 # 前端工程師面試基本題目
 
 <h3>原形鏈</h3>
+Javascript 是一個物件導向的程式語言，因為沒有原生的class，所以他的繼承方法是透過「原型」來做實踐<br>
+(物件導向程式設計中的每一個物件都應該能夠接受資料、處理資料並將資料傳達給其它物件，因此它們都可以被看作一個小型的「機器」，即物件。)<br>
+
+「原型」繼承：讓本來沒有某個屬性的物件去存取其他物件的屬性<br>
+
+```bash
+function dog(name , size , color){
+this.name = name;
+this.size = size;
+this.color = color;
+}
+
+dog.prototype.bark = function(){
+console.log(this.name + '吠叫')
+}
+
+let tuotuo = new dog('多多' , '小' , '金色');
+
+tuotuo.bark();
+```
 
 <h3>閉包</h3>
 <p>如果內層的函式沒有可取用的特定變數，則會向外查找（生命週期只限於function），此時內部被稱為「閉包」</p>
@@ -72,3 +92,11 @@ join():array<br>
 <h3>Callback function 回呼函式</h3>
 完成後不馬上執行，而是在「未來某個時間點」被呼叫後，才執行 ，例如：setTimeout
 <h3>HTTP require method</h3>
+
+<h3> Webpack 和 gulp 有何不同 ?</h3>
+Webpack : 前端打包工具<br>
+gulp : 前端任務管理工具<br>
+
+<h3>請說明 export 和 export default 有何不同 ?</h3>
+export 方式匯出，在 import 時須要加 { }，export default 則不須要 !
+
