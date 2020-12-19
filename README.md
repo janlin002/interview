@@ -1,11 +1,21 @@
 # 前端工程師面試基本題目
 
-<h3>原形練</h3>
+<h3>原形鏈</h3>
 
 <h3>閉包</h3>
 <p>如果內層的函式沒有可取用的特定變數，則會向外查找（生命週期只限於function），此時內部被稱為「閉包」</p>
 <h3>Promise</h3>
-專門處理非同步事件
+專門處理非同步事件<br>
+pending:不確定執行完成時間<br>
+settled:非同步行為完成<br>
+fufilled:以實現狀態<br>
+rejected:以否決狀態<br>
+fufilled透過resolve參數回傳一個結果，並且用.then()接收<br>
+反之一樣，<br>
+rejected透過reject參數回傳一個結果，並且用.catch()接收<br>
+
+![圖片](https://www.evernote.com/l/AWuk8tRXUFVF8JzjhtndGFItrcWJlPnYZJkB/image.png)
+
 <h3>var let const</h3>
 var : function scope<br>
 let , const : block scope
