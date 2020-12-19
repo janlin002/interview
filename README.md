@@ -50,7 +50,13 @@ By reference:傳參考(傳址) (物件型別)<br>
 類似現在流行的電子共享筆記本，A同學不小心把重點刪掉了，那你們兩個就得厚著臉皮跟老師要筆記了<br>
 
 <h3>Hoisting</h3>
-
+可想像成這是因為編譯器會先掃過程式碼中的宣告的變數和函式，而把這些變數和函示「提升」到程式碼的最頂端<br>
+<h4>hoisting是有範圍的</h4>
+在函式內宣告變數，不會被拉升到全域範疇而成為全域變數。<br>
+<h4>變數 vs 函式</h4>
+變數與函式的拉升的不同之處在於，變數的拉升只有宣告部份，而函式的拉升是整個函式，因此函式在宣告前是可以執行的。<br>
+<h4>重複宣告</h4>
+若函式和變數同名，則函式會優先；若同時有多個函式同名，則後面的會覆寫前面的宣告。
 <h3>ES6 新增語法</h3>
 <ol>
     <li>let ,const</li>
@@ -91,7 +97,17 @@ join():array<br>
 
 <h3>Callback function 回呼函式</h3>
 完成後不馬上執行，而是在「未來某個時間點」被呼叫後，才執行 ，例如：setTimeout
-<h3>HTTP require method</h3>
+<h3>HTTP methods HTTP請求方法</h3>
+
+GET 使用 GET 的請求只應用於取得資料。<br>
+HEAD 方法請求與 GET 方法相同的回應，但它沒有回應主體（response body）。<br>
+POST 方法用於提交指定資源的實體，通常會改變伺服器的狀態或副作用（side effect）。<br>
+PUT 方法會取代指定資源所酬載請求（request payload）的所有表現。<br>
+DELETE 方法會刪除指定資源.<br>
+CONNECT 方法會和指定資源標明的伺服器之間，建立隧道（tunnel）。<br>
+OPTIONS 方法描述指定資源的溝通方法（communication option）。<br>
+TRACE 方法會與指定資源標明的伺服器之間，執行迴路返回測試（loop-back test）。<br>
+PATCH 方法套用指定資源的部份修改。<br>
 
 <h3> Webpack 和 gulp 有何不同 ?</h3>
 Webpack : 前端打包工具<br>
