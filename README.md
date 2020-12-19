@@ -115,5 +115,21 @@ Webpack : 前端打包工具<br>
 gulp : 前端任務管理工具<br>
 
 <h3>請說明 export 和 export default 有何不同 ?</h3>
-export 方式匯出，在 import 時須要加 { }，export default 則不須要 !
+export 方式匯出，在 import 時須要加 { }，export default 則不須要 !<br>]
+在一個檔案或模組中，export、import可以有多個，export default僅有一個<br>
 
+```bash
+var name="david";
+export { name }
+//import { name } from "/.a.js" 
+可以寫成：
+var name="david";
+export default name
+//import name from "/.a.js" 這裡name不需要大括號
+```
+
+<h3>AJAX</h3>
+AJAX就是讓Web 應用程式便能快速、即時更動介面及內容，不需要重新讀取整個網頁，讓程式更快回應使用者的操作。
+
+
+![AJAX](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM4QBIXOpwCTASkD1wsDATry9PBgujCeAeaw&usqp=CAU)
