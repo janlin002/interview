@@ -38,7 +38,8 @@ rejected透過reject參數回傳一個結果，並且用.catch()接收<br>
 
 <h3>var let const</h3>
 var : function scope<br>
-let , const : block scope
+let , const : block scope<br>
+const為宣告常數，不能再作修改
 <h3>forEach , map , filter , reduce</h3>
 
 可參考：  [連結](https://github.com/janlin002/JS30DAY/tree/main/day4)
