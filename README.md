@@ -185,3 +185,5 @@ destroyed（銷毀後） 在實例銷毀之後調用。調用後，所有的事�
 
 [js面試題目](https://medium.com/@HuangPei/js%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE%E6%95%B4%E7%90%86-javascript-interview-prep-practice-problems-1-10-c48313f28ac2)
 
+[js練習題](https://hackmd.io/@chupai/r1mW5_gEB)
+
