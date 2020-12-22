@@ -53,7 +53,12 @@ By reference:傳參考(傳址) (物件型別)<br>
 類似現在流行的電子共享筆記本，A同學不小心把重點刪掉了，那你們兩個就得厚著臉皮跟老師要筆記了<br>
 
 <h3>Hoisting</h3>
-可想像成這是因為編譯器會先掃過程式碼中的宣告的變數和函式，而把這些變數和函示「提升」到程式碼的最頂端<br>
+解釋一：可想像成這是因為編譯器會先掃過程式碼中的宣告的變數和函式，而把這些變數和函示「提升」到程式碼的最頂端<br>
+解釋二：在變數及函數創造階段時，在記憶體空下位置，函式（陳述式）會預先納入記憶體中，而變數則會預先給予 undefined 的值。<br>
+var 是看 function scope 提升到 global 或 function 的最上端，而 const 與 let 是 block scope ，所以要特別注意！<br>
+
+![hoisting](https://miro.medium.com/max/1400/1*uP3VBQXRGgw2nFtSqFYWGQ.png)
+
 <h4>hoisting是有範圍的</h4>
 在函式內宣告變數，不會被拉升到全域範疇而成為全域變數。<br>
 <h4>變數 vs 函式</h4>
@@ -136,6 +141,22 @@ AJAX就是讓Web 應用程式便能快速、即時更動介面及內容，不需
 
 ![AJAX](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM4QBIXOpwCTASkD1wsDATry9PBgujCeAeaw&usqp=CAU)
 
+<h3>IIFE 立即函示</h3>
+
+1. 使用 () 包起來的匿名。這樣的寫法可以避免裡面的變數污染到 global scope。<br>
+2. 看到IIFE的()，JavaScript 引擎看到它就會立刻轉譯該 function。<br>
+
+<h3>大魔王關：this</h3>
+
+- this 是 JavaScript 的一個關鍵字。<br>
+- this 是 function 執行時，自動生成的一個內部物件。<br>
+- 隨著 function 執行場合的不同，this 所指向的值，也會有所不同。<br>
+- 在大多數的情況下， this 代表的就是呼叫 function 的物件 (Owner Object of the function)。<br>
+
+<h3>Equals == vs Strict Equals ===</h3>
+
+== 是寬鬆判定不看型別，===嚴格判定會看型別。
+
 <h1>Vue.js</h1>
 
 <h3>Vue生命週期</h3>
@@ -158,4 +179,9 @@ destroyed（銷毀後） 在實例銷毀之後調用。調用後，所有的事�
 
 
 [原文網址](https://kknews.cc/news/zeolkzp.html)
+
+＝＝＝＝＝
+參考文章：
+
+[js面試題目](https://medium.com/@HuangPei/js%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE%E6%95%B4%E7%90%86-javascript-interview-prep-practice-problems-1-10-c48313f28ac2)
 
