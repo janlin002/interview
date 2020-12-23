@@ -187,3 +187,5 @@ destroyed（銷毀後） 在實例銷毀之後調用。調用後，所有的事�
 
 [js練習題](https://hackmd.io/@chupai/r1mW5_gEB)
 
+[js練習題](https://ithelp.ithome.com.tw/articles/10229014)
+
