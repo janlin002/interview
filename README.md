@@ -176,9 +176,14 @@ beforeDestroy（銷毀前） 在實例銷毀之前調用。實例仍然完全可
 
 destroyed（銷毀後） 在實例銷毀之後調用。調用後，所有的事件監聽器會被移除，所有的子實例也會被銷毀。該鉤子在伺服器端渲染期間不被調用。<br>
 
-
-
 [原文網址](https://kknews.cc/news/zeolkzp.html)
+
+<h3>v-if vs v-show</h3>
+1.v-if 是註解掉 v-show是display:none;(代表空間有保留)<br>
+2.v-if在template中可使用 v-show在template中不能使用<br>
+3.v-if可搭配v-else v-else if , v-show不行<br>
+
+[參考文章](https://ithelp.ithome.com.tw/articles/10205746)
 
 ＝＝＝＝＝
 參考文章：
