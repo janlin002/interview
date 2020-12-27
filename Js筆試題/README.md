@@ -6,6 +6,8 @@
 
 [this](https://hackmd.io/ZQUNGAIRQYOmEcSlIipPTA)
 
+[obj vs arr](https://miahsuwork.medium.com/%E7%AC%AC%E5%9B%9B%E9%80%B1-javascript-%E9%99%A3%E5%88%97-array-%E8%88%87-%E7%89%A9%E4%BB%B6-object-25f13e3d3c92)
+
 =====
 <h3>指定this的方法</h3>
 
