@@ -19,7 +19,7 @@ console.log(this.name + '吠叫')
 
 let tuotuo = new dog('多多' , '小' , '金色');
 
-tuotuo.bark();
+tuotuo.bark();//多多吠叫
 ```
 
 <h3>閉包</h3>
