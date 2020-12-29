@@ -5,5 +5,5 @@
 
 [js練習題](https://hackmd.io/@chupai/r1mW5_gEB)
 
-[js練習題](https://ithelp.ithome.com.tw/articles/10229014)
+[it邦幫忙js練習題](https://ithelp.ithome.com.tw/articles/10229014)
 
