@@ -4,7 +4,12 @@
 
 GET方法<br>
 傳送的值藉由GET請求URL發送<br>
-簡單來說GET是把資料放在header進行傳送，而在網址列會看到"http://www.xxx.com/test/index.php?test1=value1&test2=value2"<br>
+簡單來說GET是把資料放在header進行傳送，而在網址列會看到<br>
+
+```bash
+"http://www.xxx.com/test/index.php?test1=value1&test2=value2"
+```
+
 同時，使用GET方式傳遞的話，並不適合傳送些隱密性較高的資料(例如：Password)，因為在傳送的過程中就會顯示在網址列上<br>
 
 POST方法<br>
