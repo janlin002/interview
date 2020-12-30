@@ -79,3 +79,5 @@ bind 的使用方法是 fn.bind(this, arg1, arg2..., argn)。bind主要有兩種
 
 
 [參考文章](https://ithelp.ithome.com.tw/articles/10195896)
+
+[link](https://realdennis.medium.com/javascript-%E8%81%8A%E8%81%8Acall-apply-bind%E7%9A%84%E5%B7%AE%E7%95%B0%E8%88%87%E7%9B%B8%E4%BC%BC%E4%B9%8B%E8%99%95-2f82a4b4dd66)
