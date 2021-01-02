@@ -1,5 +1,7 @@
 <h1>Git觀念</h1>
 
+<h1>指令</h1>
+
 git log [查詢所有動作]
 
 git checkout [切換]
