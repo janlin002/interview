@@ -2,6 +2,12 @@
 
 [下載資源](https://nodejs.org/zh-tw/download/)
 
+<h3>nodemon</h3>
+
+node環境即時更新
+
+[nodemon](https://www.npmjs.com/package/nodemon)
+
 ```bash
 node --version 
 node -v        //確認版本號
@@ -29,3 +35,13 @@ _filename [檔案路徑]
 
 [path小抄](https://courses.hexschool.com/courses/670034/lectures/11949911)
 
+版本號：<br>
+
+1.12.0<br>
+1: 主要版本號<br>
+12: 次要版本號<br>
+0: bug修正<br>
+
+^ : 只會更新 次要版本 跟 修正 <br>
+~ : 只會更新 bug的修正 <br>
+latest : 永遠更新到最新版本 <br>
