@@ -13,4 +13,10 @@ ctrl+c //跳出node環境
 ```
 
 
-node 檔案名 [使用node.js去執行該檔案]
+node 檔案名 [使用node.js去執行該檔案]<br>
+
+node 的全域是 global 不是 window<br>
+
+require 撈值 <br>
+
+module.exports 傳值 <br>
