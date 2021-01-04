@@ -20,3 +20,9 @@ node 的全域是 global 不是 window<br>
 require 撈值 <br>
 
 module.exports 傳值 <br>
+
+[createServer]()
+
+_dirname [資料夾路徑]
+
+_filename [檔案路徑]
