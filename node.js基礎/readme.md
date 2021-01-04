@@ -17,6 +17,7 @@ node 檔案名 [使用node.js去執行該檔案]<br>
 
 node 的全域是 global 不是 window<br>
 
+<<<<<<< HEAD
 require 撈值 <br>
 
 module.exports 傳值 <br>
@@ -26,3 +27,9 @@ module.exports 傳值 <br>
 _dirname [資料夾路徑]
 
 _filename [檔案路徑]
+=======
+```bash
+require 撈值 
+module.exports 傳值 
+```
+>>>>>>> 7e040a7935a4081c94ca617ebb7c2aafcf87baca
