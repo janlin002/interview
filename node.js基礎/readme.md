@@ -26,3 +26,5 @@ module.exports 傳值 <br>
 _dirname [資料夾路徑]
 
 _filename [檔案路徑]
+
+[path小抄](https://courses.hexschool.com/courses/670034/lectures/11949911)
