@@ -21,10 +21,11 @@ require 撈值 <br>
 
 module.exports 傳值 <br>
 
-[createServer]()
+[createServer](https://github.com/janlin002/interview/blob/master/node.js%E5%9F%BA%E7%A4%8E/createServer.js)
 
 _dirname [資料夾路徑]
 
 _filename [檔案路徑]
 
 [path小抄](https://courses.hexschool.com/courses/670034/lectures/11949911)
+
