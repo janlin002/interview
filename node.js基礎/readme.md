@@ -35,7 +35,7 @@ _filename [檔案路徑]
 
 [path小抄](https://courses.hexschool.com/courses/670034/lectures/11949911)
 
-版本號：<br>
+<h2>版本號:</h2>
 
 1.12.0<br>
 1: 主要版本號<br>
