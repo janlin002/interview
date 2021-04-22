@@ -2,6 +2,8 @@
 
 <h1>指令</h1>
 
+[Git指令大全](https://hellojs-tw.github.io/git-101/cheat-sheet.html)
+
 git log [查詢所有動作]
 
 git checkout [切換]
