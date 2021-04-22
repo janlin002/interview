@@ -1,7 +1,7 @@
 <h1>Git觀念</h1>
 <h1>圖式</h1>
 
-！[image](https://backlog.com/git-tutorial/tw/img/post/stepup/capture_stepup1_5_6.png)
+![image](https://backlog.com/git-tutorial/tw/img/post/stepup/capture_stepup1_5_6.png)
 
 <h1>指令</h1>
 
