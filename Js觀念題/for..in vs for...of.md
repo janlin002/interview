@@ -5,6 +5,7 @@
 <h2>for ... in</h2>
 是ES5標準<br>
 返回的會是index
+
 ```bash
 let arr = ['a','b','c','d',{'e':'e_value','f':'f_value'}];
 
@@ -19,9 +20,11 @@ for(let index in arr){
 }
 //a,b,c,d,{'e':'e_value','f':'f_value'}
 ```
+
 <h2>for ... of</h2>
 是ES6標準<br>
 返回的會是value
+
 ```bash
 arr.name='myArray';
 for(let index in arr){
