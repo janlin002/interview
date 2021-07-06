@@ -1,8 +1,8 @@
 # Webpack筆記
 
 ```bash
-npm install --save-dev webpack
-npm install --save-dev webpack-cli
+npm init -y
+npm install webpack webpack-cli --save-dev
 ```
 
 ```bash
