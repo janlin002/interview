@@ -105,10 +105,10 @@ join():array<br>
 完成後不馬上執行，而是在「未來某個時間點」被呼叫後，才執行 ，例如：setTimeout
 <h3>HTTP methods HTTP請求方法</h3>
 
-GET 使用 GET 的請求只應用於取得資料。<br>
+GET 使用 GET 的請求只應用於取得資料。- 查詢 <br>
 HEAD 方法請求與 GET 方法相同的回應，但它沒有回應主體（response body）。<br>
-POST 方法用於提交指定資源的實體，通常會改變伺服器的狀態或副作用（side effect）。<br>
-PUT 方法會取代指定資源所酬載請求（request payload）的所有表現。<br>
+POST 方法用於提交指定資源的實體，通常會改變伺服器的狀態或副作用（side effect。 - 修改 <br>
+PUT 方法會取代指定資源所酬載請求（request payload）的所有表現。 - 新增<br>
 DELETE 方法會刪除指定資源.<br>
 CONNECT 方法會和指定資源標明的伺服器之間，建立隧道（tunnel）。<br>
 OPTIONS 方法描述指定資源的溝通方法（communication option）。<br>
