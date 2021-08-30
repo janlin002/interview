@@ -1,4 +1,7 @@
 <h1>Git觀念</h1>
+
+[各種實例](https://happygitwithr.com/pull-tricky.html)
+
 <h1>圖式</h1>
 
 ![image](https://backlog.com/git-tutorial/tw/img/post/stepup/capture_stepup1_5_6.png)
