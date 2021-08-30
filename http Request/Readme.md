@@ -3,6 +3,8 @@
 <h1>常用Request</h1>
 
 [推薦文章](https://progressbar.tw/posts/53)
+
+[Http 協定](https://medium.com/pierceshih/%E7%AD%86%E8%A8%98-%E4%BD%95%E8%AC%82-http-%E5%82%B3%E8%BC%B8%E5%8D%94%E5%AE%9A-1d9b5be3fd24)
     
 <h2>Get</h2>
     取得
